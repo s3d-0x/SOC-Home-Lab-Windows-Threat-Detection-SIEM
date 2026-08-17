@@ -1,0 +1,18 @@
+                  SOC HOME LAB
+               192.168.207.0/24
+                       │
+       ┌───────────────┼────────────────┐
+       │               │                │
+       ▼               ▼                ▼
+ Windows Server     Windows 10        KaliLinux
+    AD/DNS           Endpoint        Attacker
+       │               │                │
+       │             Sysmon             │
+       │               │                │
+       └───────────────┼────────────────┘
+                       │
+                       ▼
+                  Splunk Server
+                     SIEM
+
+                     
